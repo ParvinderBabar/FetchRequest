@@ -1,15 +1,20 @@
 "use client"
-import { useEffect, useState } from "react";
-import styles from "./page.module.css";
+
+import Dogs from "./Components/Dogs.js";
 import Pokemon from "./Components/Pokemon"; // Adjust the path based on your project structure
 
 export default function Home() {
   
   return (
     <div >
+      <Dogs/>
+      <hr>
+      </hr>
+      <Memes />
+      <hr></hr>
       <Pokemon />
       <hr></hr>
-      
+
     </div>
   );
 }
