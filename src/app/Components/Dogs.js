@@ -48,8 +48,7 @@ export default function Dogs() {
             {dogImgs.length > 0 && 
             dogImgs.map((imageUrl, index) => (
                 <img style={{
-                    width:100, display: "flex",
-                    flexDirection: "row"
+                    width:50 
                 }}
                     key={index}
                     src={imageUrl}
